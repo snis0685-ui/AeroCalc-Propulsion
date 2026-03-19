@@ -1,0 +1,16 @@
+# AeroCalc — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Numerical computing — used in every module for array ops, log, sqrt, exp
+numpy>=1.24
+
+# Scientific computing — scipy.optimize.brentq used in nozzle_solver.py
+# to numerically solve the area-Mach relation for exit Mach number
+scipy>=1.10
+
+# Web interface — Streamlit app with widgets, metrics, tabs, plotly charts
+streamlit>=1.32
+
+# Interactive charts — plotly.graph_objects + plotly.subplots used in plots.py
+# replaces matplotlib; add_vline/add_hline require Plotly >= 5.0
+plotly>=5.18
